@@ -1,1 +1,115 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <link rel="stylesheet" type="text/css" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/fonts.css" />
+    <script src="https://kit.fontawesome.com/664068d79f.js" crossorigin="anonymous"></script>
+    <script src="scripts/main.js" async></script>
+
+    <title>Alex Mauthe | Technical Support Engineer</title>
+  </head>
+
+  <body>
+
+    <div class="overlay"></div>
+    
+    <div id="navbar"></div>
+
+    <section class="section" id="home">
+        <div class="section__overlay"></div>
+          <div class="hero__text">
+              <h1 class="hero__title">Alexander Mauthe</h1>
+              <p class="hero__info">Technical Support Engineer</p>
+              <a class="button" href="#projects">Projects</a>
+          </div>
+          <ul class="socialSide">
+            <li class="socialItem"><a href="https://github.com/amauthe" title="GitHub" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+            <li class="socialItem"><a href="https://www.linkedin.com/in/amauthe/" title="LinkedIn" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+          </ul>
+    </section>
+
+    <section class="section" id="about">
+        <div class="container">
+            <h2 class="section__heading">About Me</h2>
+            <div class="about__grid">
+                <div class="about__info">
+                    <p> I'm an aspiring <strong>Technicial Support Engineer</strong> based in the <strong>Orange County Area</strong>. I have additional background in Biological Science and IT Operations.</p>
+                    <a href="#contact" class="button" id="contactButton">Contact</a>
+                </div>
+                <div class="about__images">
+                    <!-- <img src="img/bighead.svg" class="bighead"> -->
+                    <div class="about__skills">
+                      <div class="skillBox">
+                        <img src="https://compsciblog.s3.us-west-1.amazonaws.com/react.svg" class="skillIcon" alt="react" title="react">
+                        <p>React</p>
+                      </div>
+                      <div class="skillBox">
+                        <img src="https://compsciblog.s3.us-west-1.amazonaws.com/redux.svg" class="skillIcon" alt="redux" title="redux">
+                        <p>Redux</p>
+                      </div>
+                      <div class="skillBox">
+                        <img src="https://compsciblog.s3.us-west-1.amazonaws.com/jest.svg" class="skillIcon" alt="jest" title="jest">
+                        <p>Jest</p>
+                      </div>
+                      <div class="skillBox">
+                        <img src="https://compsciblog.s3.us-west-1.amazonaws.com/postgresql.svg" class="skillIcon" alt="postgresql" title="postgresql">
+                        <p>PostgreSQL</p>
+                      </div>
+                      <div class="skillBox">
+                        <img src="https://compsciblog.s3.us-west-1.amazonaws.com/nodejs.svg" class="skillIcon" alt="nodejs" title="nodejs">
+                        <p>Node.js</p>
+                      </div>
+                      <div class="skillBox">
+                      <img src="https://compsciblog.s3.us-west-1.amazonaws.com/typescript.svg" class="skillIcon" alt="typescript" title="typescript">
+                      <p>TypeScript</p>
+                    </div>
+                    <div class="skillBox">
+                      <img src="https://compsciblog.s3.us-west-1.amazonaws.com/tailwind.svg" class="skillIcon" alt="tailwind" title="tailwind">
+                      <p>Tailwind</p>
+                    </div>
+                      <div class="skillBox">
+                      <img src="https://compsciblog.s3.us-west-1.amazonaws.com/sass.svg" class="skillIcon" alt="sass" title="sass">
+                      <p>SASS</p>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="projects">
+        <div class="container">
+            <h2 class="section__heading">Projects</h2>
+        </div>
+
+    </section>
+    
+    <section class="section" id="contact">
+        <div class="section__overlay"></div>
+        <div class="container">
+          <h2 class="section__heading">Contact</h2>
+          <form class="contactForm" method="post" id="contactForm" action="/portfolio_contact/">
+            <input type="hidden" name="csrfmiddlewaretoken" value="gH3gLUMR2omLN3NVB6QyRU5z0PyLXHitskotivZMl3dmM5Me8d79Nl1SBCYXMLgN">
+            <div class="formSection">
+              <label class="formLabel" for="name">Name</label>
+              <input type="text" class="formInput" id="name" name="name" placeholder="Enter your name" />
+            </div>
+            <div class="formSection">
+              <label class="formLabel" for="email">Email</label>
+              <input required type="email" class="formInput" id="email" name="email" placeholder="Enter your email"/>
+            </div>
+            <div class="formSection">
+              <label class="formLabel" for="message">Message</label>
+              <textarea required class="formInput" placeholder="Enter your message" id="message" name="message"></textarea>
+            </div>
+            <button class="button">Submit</button></div>
+          </form>
+        </div>
+    </section>
+
+    <div id="footer"></div>
+    
+  </body>
+</html>
