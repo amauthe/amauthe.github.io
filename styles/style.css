@@ -249,7 +249,7 @@ input[type=checkbox] {
     position: absolute;
     height: 100%;
     width: 100%;
-    background: linear-gradient(#fafafa, rgba(0, 0, 0, 0) 50%), linear-gradient(rgba(0, 0, 0, 0) 50%, #fafafa), url("https://compsciblog.s3.us-west-1.amazonaws.com/vector.jpg");
+    background: linear-gradient(#fafafa, rgba(0, 0, 0, 0) 50%), linear-gradient(rgba(0, 0, 0, 0) 50%, #fafafa), url("../images/vector.jpg");
     background-size: cover;
     opacity: 0.5;
     z-index: 1;
